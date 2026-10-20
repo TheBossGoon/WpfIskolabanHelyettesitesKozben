@@ -23,6 +23,11 @@
       <Setter Property="BorderBrush" Value="#C6D3E1"/>
       <Setter Property="BorderThickness" Value="1"/>
     </Style>
+    <Style x:Key="DeepBlueTextBlock" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="#19324D"/>     
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
   </Window.Resources>
   <Grid Margin="20">
     <Grid.RowDefinitions>
@@ -32,7 +37,7 @@
     </Grid.RowDefinitions>
     <StackPanel Grid.Row="0" Margin="0,0,0,18">
       <TextBlock Text="Atlétikai verseny - Rajtszámok" FontSize="28" FontWeight="Bold" Foreground="#19324D"/>
-      <TextBlock Text="Versenyzők regisztrációja, rekordjelölései és adatainak kezelése" Foreground="#52657A" Margin="0,4,0,0"/>
+      <TextBlock Text="Versenyzők regisztrációja és rajtszámok kiosztása" Foreground="#52657A" Margin="0,4,0,0"/>
     </StackPanel>
     <Grid Grid.Row="1" Margin="0,0,0,16">
       <Grid.ColumnDefinitions>
@@ -48,7 +53,7 @@
           </Grid.RowDefinitions>
           <ScrollViewer VerticalScrollBarVisibility="Auto">
             <StackPanel>
-              <TextBlock Text="Új versenyző" FontSize="20" FontWeight="Bold" Foreground="#19324D"/>
+              <TextBlock Text="Új versenyző" Style="{StaticResource DeepBlueTextBlock}"/>
               <TextBlock Text="Versenyző neve:" Style="{StaticResource FieldLabel}"/>
               <TextBox x:Name="txtNev" Height="32" VerticalContentAlignment="Center"/>
               <TextBlock Text="Versenyszám:" Style="{StaticResource FieldLabel}"/>
@@ -67,7 +72,7 @@
                 <RadioButton x:Name="rbFerfi" Content="Férfi" GroupName="Nem" Margin="50,0,50,0" VerticalAlignment="Center"/>
                 <RadioButton x:Name="rbNo" Content="Nő" GroupName="Nem" VerticalAlignment="Center"/>
               </StackPanel>
-              <TextBlock Text="Életkor" Style="{StaticResource FieldLabel}"/>
+              <TextBlock Text="Életkor:" Style="{StaticResource FieldLabel}"/>
               <Grid>
                 <Grid.ColumnDefinitions>
                   <ColumnDefinition Width="*"/>
@@ -80,7 +85,7 @@
                   <TextBlock Text="18" Foreground="#52657A"/>
                   <TextBlock Text="90" DockPanel.Dock="Right" Foreground="#52657A" TextAlignment="Right"/>
               </DockPanel>
-              <TextBlock Text="Korábbi eredmények" Style="{StaticResource FieldLabel}"/>
+                            <TextBlock Text="Korábbi eredmények" Style="{StaticResource DeepBlueTextBlock}" FontSize="16"/>
               <CheckBox x:Name="chkOR" Content="Olimpiai csúcs (OR)" Margin="0,3"/>
               <CheckBox x:Name="chkVR" Content="Világcsúcs (VR)" Margin="0,3"/>
               <CheckBox x:Name="chkER" Content="Európa-csúcs (ER)" Margin="0,3"/>
@@ -106,7 +111,7 @@
                   <ColumnDefinition Width="220"/>
               </Grid.ColumnDefinitions>
             <StackPanel>
-                <TextBlock Text="Regisztrált versenyzők" FontSize="20" FontWeight="Bold" Foreground="#19324D"/>
+                <TextBlock Text="Regisztrált versenyzők" Style="{StaticResource DeepBlueTextBlock}"/>
                 <TextBlock Text="Rajtszám | név | versenyszám | nem | életkor | OR | VR | ER" Foreground="#52657A" FontSize="12" Margin="0,3,0,0"/>
             </StackPanel>
             <TextBlock Grid.Column="1" Text="Eredményszűrő" VerticalAlignment="Center" Margin="14,0,8,0" Foreground="#52657A"/>
