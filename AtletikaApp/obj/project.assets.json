@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\puham\\Documents\\Codex\\2026-10-20\\complete-this-work\\outputs\\AtletikaApp\\AtletikaApp.csproj",
+      "projectUniqueName": "C:\\Users\\puham\\OneDrive\\Dokumentumok\\github\\WpfIskolabanHelyettesitesKozben\\AtletikaApp\\AtletikaApp.csproj",
       "projectName": "AtletikaApp",
-      "projectPath": "C:\\Users\\puham\\Documents\\Codex\\2026-10-20\\complete-this-work\\outputs\\AtletikaApp\\AtletikaApp.csproj",
+      "projectPath": "C:\\Users\\puham\\OneDrive\\Dokumentumok\\github\\WpfIskolabanHelyettesitesKozben\\AtletikaApp\\AtletikaApp.csproj",
       "packagesPath": "C:\\Users\\puham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\puham\\Documents\\Codex\\2026-10-20\\complete-this-work\\outputs\\AtletikaApp\\obj\\",
+      "outputPath": "C:\\Users\\puham\\OneDrive\\Dokumentumok\\github\\WpfIskolabanHelyettesitesKozben\\AtletikaApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
