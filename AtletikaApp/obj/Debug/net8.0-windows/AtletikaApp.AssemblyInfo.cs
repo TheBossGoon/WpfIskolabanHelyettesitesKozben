@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AtletikaApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7590d6afa66cdd3d7b70b68948f4408d9dbf9d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75026e11300f428801d3ba8411ef983933425655")]
 [assembly: System.Reflection.AssemblyProductAttribute("AtletikaApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AtletikaApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
